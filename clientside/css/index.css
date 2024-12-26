@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(1, 18, 10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+h3{
+    color: white;
+    font-family: cursive;
+    font-size: 28px;
+    margin-left: 50px;
+}
+button{
+    margin-right: 50px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(8, 101, 8);
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255, 0.189) 0px 4px 6px -1px, rgb(255, 255, 255) 0px 1px 0px inset;
+}
+button:hover{
+    background-color: rgb(8, 55, 7);
+    color: rgb(255, 255, 255);
+}
