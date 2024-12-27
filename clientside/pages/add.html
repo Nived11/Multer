@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="" id="form">
+        <form action="" id="form" enctype="multipart/form-data">
             <div class="divs">
                 <a href=""><p>Get Users</p></a>
             </div>
@@ -17,25 +17,26 @@
             </div>
            <div class="divs">
                 <label>Email</label><br>
-                <input type="text" name="name" id="name">
+                <input type="text" name="email" id="name">
             </div>
             <div class="divs">
                 <label>Username</label><br>
-                <input type="text" name="name" id="name">
+                <input type="text" name="username" id="username">
             </div>
             <div class="divs">
                 <label>Profile Image</label><br>
-                <input type="file" name="file" id="file">
+                <input type="file" name="file" id="image" multiple>
             </div>
             <div class="divs">
                 <label>Phone</label><br>
-                <input type="text" name="name" id="name">
+                <input type="text" name="phone" id="phone">
             </div>
             <button>Submit</button>
                 <div class="footer">
-                <label>2024 Your Company</label><br>
+                <label>&copy;2024 Your Company</label><br>
             </div>
         </form>
     </div>
+    <script src="../js/add.js"></script>
 </body>
 </html>
