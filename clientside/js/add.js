@@ -9,7 +9,7 @@ document.getElementById("form").addEventListener("submit",(e)=>{
         body:data
     }).then((res)=>{
         console.log(res);
-        // window.location.href="../index.html";
+        window.location.href="../index.html";
         
     }).catch((error)=>{
         console.log(error);
